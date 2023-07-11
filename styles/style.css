@@ -1,0 +1,33 @@
+body {
+    background-color: #FFE4E3;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#image { 
+    width: 20%;
+    display: none;
+}
+
+#btn {
+    letter-spacing: .2rem;
+    color: white;
+    background-color: #FFC5C6;
+    border: none;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn:hover {
+    background-color: #FFB8B7;
+    transform: translateY(-5px);
+}
+
+#image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
